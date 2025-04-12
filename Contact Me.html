@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <form>
+            <input type="text" placeholder="Search this site...">
+        </form> <br>
+
+        <nav>
+            <a href="index.html">Home Page</a> |
+            <a href="about Me.html">About Me</a> |
+            <a href="Contact Me.html" class="active">Contact Me</a>|
+            <a href="Gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Me</h1>
+
+        <form action="mailto:marjan01rashidi@gmail.com" method="post">
+            <label>Name:</label><br>
+            <input type="text" name="name" placeholder="Your name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" placeholder="Your email"><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" rows="6" cols="40" placeholder="Anything you would like to say" required></textarea><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Female" required> Female<br>
+            <input type="radio" name="gender" value="Male" required> Male<br>
+            <input type="radio" name="gender" value="Other" required> Other<br><br>
+
+            <label>Your Interests:</label><br>
+            <input type="checkbox" name="interest" value="Community Engagement" required> Community Engagement<br>
+            <input type="checkbox" name="interest" value="Web Development" required> Web Development<br>
+            <input type="checkbox" name="interest" value="Advocacy" required> Advocacy<br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+
+        <p>Or email me directly at: <a href="mailto:marjan01rashidi@gmail.com">marjan01rashidi@gmail.com</a></p>
+    </main>
+
+</body>
+</html>
